@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 function LoginPage() {
-  const [username, setUsername] = useState("matematic");
-  const [password, setPassword] = useState("mate123");
+  const [username, setUsername] = useState("svengotovac");
+  const [password, setPassword] = useState("sven123");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
